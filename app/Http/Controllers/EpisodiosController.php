@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Providers\Serie;
+use App\Providers\Episodio;
 use App\Http\Controllers\BaseController;
 
-class SeriesController extends BaseController
+class EpisodiosController extends BaseController
 {
     public function __construct()
     {
-        $this->classe = Serie::class;
+        $this->classe = Episodio::class;
     }
 }
